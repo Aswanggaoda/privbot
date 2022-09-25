@@ -110,7 +110,7 @@ zets.ev.on('messages.upsert', async chatUpdate => {
         }
     })
     
-    // Group Update
+    /*// Group Update
     zets.ev.on('groups.update', async pea => {
     //console.log(pea)
     try {
@@ -172,7 +172,7 @@ zets.ev.on('messages.upsert', async chatUpdate => {
         } catch (err) {
             console.log(err)
         }
-    })
+    })*/
 	
     // Setting
     zets.decodeJid = (jid) => {
